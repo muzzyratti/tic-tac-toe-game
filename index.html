@@ -8,6 +8,21 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>Tic Tac Toe</header>
+    <div class="container">
+        <div class="start-screen">
+            <p>Enter player names</p>
+            <input type="text" id="player1" placeholder="Name of player 1">
+            <input type="text" id="player2" placeholder="Name of player 2">
+            <button id="start-btn">Start</button>
+        </div>
+
+        <div class="game-screen" style="display: none;">
+            <div class="players-turn"></div>
+            <div class="board"></div>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </div>
+    <footer>Made by Muzzyratti</footer>
 </body>
 </html>
